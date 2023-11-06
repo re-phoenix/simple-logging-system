@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clients status="updated">
+  <client>
+    <userId value="useradmin"/>
+    <userEmail value="user-admin@basic-logging-system.com"/>
+    <userPass value="$argon2id$v=19$m=65536,t=4,p=1$R2hEa3JpYUltZHVsdFZ5ag$atWB0z+s02216xoTeGWeqRZXriaS9zHdrE6TAcJYmko"/>
+    <isAdmin value="true"/>
+  </client>
+  <client>
+    <userId value="11112222"/>
+    <userEmail value="12@sample.com"/>
+    <userPass value="$argon2id$v=19$m=65536,t=4,p=1$cnM4Y0xTVXNIcVBkR0R1ZA$gnHm87VS5hcZycf1fT7tPGt5FqDAMprnsH2PikqEpO8"/>
+    <isAdmin value="false"/>
+  </client>
+</clients>

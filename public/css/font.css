@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Metamorphous;
+    src: url(../res/font/Metamorphous/Metamorphous-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: College;
+    src: url(../res/font/college/college.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: GideonRoman;
+    src: url(../res/font/Gideon_Roman/GideonRoman-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Michroma;
+    src: url(../res/font/Michroma/Michroma-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Audiowide;
+    src: url(../res/font/Audiowide/Audiowide-Regular.ttf) format('truetype');
+}

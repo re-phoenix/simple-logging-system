@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO-BE CONTINUE... -->
+<!-- 
+    PURPOSE:
+    Here are all the potential, accessible postfixes for school IDs for sub-administrator accounts. 
+    We can add or/and remove postfixe(s) school-id's
+-->
+<sub-admin>
+    <super-user-id>sub-admin-omg</super-user-id>
+    <super-user-id>sub-admin-lol</super-user-id>
+    <super-user-id>sub-admin-diy</super-user-id>
+    <super-user-id>sub-admin-idk</super-user-id>
+    <super-user-id>sub-admin-fyi</super-user-id>
+    <super-user-id>sub-admin-brb</super-user-id>
+    <super-user-id>sub-admin-asap</super-user-id>
+    <super-user-id>sub-admin-yolo</super-user-id>
+    <super-user-id>sub-admin-vip</super-user-id>
+</sub-admin>

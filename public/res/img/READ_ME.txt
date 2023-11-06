@@ -1,0 +1,1 @@
+# The images and resources utilized here serve as an educational purpose.

@@ -1,0 +1,170 @@
+
+
+:root {
+    --purple: #B15EFF;
+    --dark-purple: #3D30A2;
+    --orange: #FFA33C;
+    --yellow: #FFFB73;
+    --black: #000000;
+    --white: #ffffff;
+    --font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ContainerDiv {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#BANNER_SECTION {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+body {
+    font-family: Michroma, Arial, Helvetica, sans-serif;
+    background-color: var(--purple);
+    margin: 0;
+    padding: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background: var(--dark-purple);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 a:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 1.5%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-bar {
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+
+.search-box {
+    padding: 10px;
+    border: 1px solid #003366;
+}
+
+.search-button {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/*REM: General; LogIn page*/
+.SigningForm {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SigningForm label {
+    font-weight: bold;
+    user-select: none;
+    color: var(--black);
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.SigningForm input {
+    height: 30px;
+    padding-left: 5px;
+}
+
+.SigningForm .ChkboxShowPassword {
+    width: 15px;
+    height: 15px;
+}
+
+.SigningForm .ChkboxShowPassword:checked {
+    color: blue;
+}
+
+.SigningForm .ShowPasswordDiv {
+    display: inline;
+}
+
+.SigningForm .ShowPasswordDiv label {
+    width: 500px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.SigningForm .BtnSubmitDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SigningForm .BtnSubmit {
+    font-family: Michroma, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 35px;
+    width: 35%;
+}
+
+.SigningForm .BtnSubmit:hover {
+    background-color: var(--dark-purple);
+    color: var(--white);
+}
+
+/*REM: I'm unsure about the best practice for this, and there are many things to learn. I'm just following this approach for now.*/ 
+/* .Registration {
+    display: none; 
+}*/
