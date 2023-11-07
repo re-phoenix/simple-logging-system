@@ -1,0 +1,53 @@
+.PopUp {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 2px 10px var(--dark-purple);
+    z-index: 9999;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+}
+
+.PopUpContent {
+    font-size: 1.2rem;
+    color: var(--dark-purple);
+    text-align: center;
+    font-weight: bold;
+}
+
+.PopUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Icon {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 25px;
+    width: 25%;
+    height: 55%;
+}
+
+.Error {
+    color: red;
+}
+
+.IconError {
+    background-image: url(../res/img/icon_access_denied_000.png);
+}
+
+.Success {
+    color: green;
+}
+
+.IconSuccess {
+    background-image: url(../res/img/icon_access_granted_000.png);
+}

@@ -33,6 +33,12 @@
                 </div>
             </form>
         </section>
+        <div class="PopUp" id="MESSAGE">
+            <div class=PopUpContainer>
+                <div class="PopUpContent" id="MESSAGE_CONTENT"></div>
+                <div class="Icon" id="ICON"></div>
+            </div>
+        </div>
     </div>
     <footer>
         <?php

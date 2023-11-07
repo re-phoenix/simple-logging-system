@@ -4,4 +4,5 @@
 <link rel="icon" href="../../public/res/img/#" />
 <link rel="stylesheet" type="text/css" href="../../public/css/font.css" />
 <link rel="stylesheet" type="text/css" href="../../public/css/style.css" />
+<link rel="stylesheet" type="text/css" href="../../public/css/pop.css" />
 <title>Simple Logging System</title>

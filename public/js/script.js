@@ -21,8 +21,29 @@ registrationElement.forEach(function(element) {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+
+    const message = document.getElementById('MESSAGE');
+    const messageContent = document.getElementById('MESSAGE_CONTENT');
+    const messageIcon = document.getElementById('ICON');
+
+
     const signInForm = document.querySelector("#SIGN_IN_FORM");
     const signUpForm = document.querySelector("#SIGN_UP_FORM");
+
+
+    //REM: Function to show the message with custom text and class
+    function showMessage(text, className) {
+        messageContent.innerHTML = text;
+        messageContent.className = 'PopUpContent ' + className;
+        messageIcon.className = 'Icon Icon' + className;
+        message.style.display = 'block';
+
+        //REM: Hide the message after 1.5 seconds
+        setTimeout(function () {
+            message.style.display = 'none';
+        }, 1500);
+        window.location.href = "#";
+    }
 
     if (signInForm) {
         signInForm.addEventListener("submit", function(event) {
@@ -49,13 +70,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 console.log("Received data:", data);
                 elementIdUserPassword.value = "";
                 if (data.isSuccess) {
-                    alert(data.message);
-                    window.location.href = "../../index.html";
+                    elementIdUserName.value = "";
+                    showMessage('Access Granted', 'Success');
                     if (data.isAdmin) {
                         //REM: TODO-HERE
                     }
                 } else {
-                    alert(data.message);
+                    showMessage('Access Denied', 'Error');
                 }
             })
             .catch(error => {
